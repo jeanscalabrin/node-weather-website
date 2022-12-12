@@ -1,5 +1,3 @@
-console.log('Arquivo Javascript do lado do cliente')
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const messageOne = document.querySelector('#message-1')
