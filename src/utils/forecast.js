@@ -11,7 +11,7 @@ const forecast = (latitude, longitude, callback) => {
         } else {
             callback(undefined, {
                 locationName: body.location.name + ' - ' + body.location.region + ', ' + body.location.country,
-                forecast: body.current.weather_descriptions[0] + '. It is currently ' + body.current.temperature + ' degress out. There is ' + body.current.precip + 'mm of rain.',
+                forecast: body.current.weather_descriptions[0] + '. It is currently ' + body.current.temperature + ' degress out. There is ' + body.current.precip + 'mm of rain and ' + body.current.humidity + '% humidity.',
                 weatherIcon: body.current.weather_icons
             })
         }
