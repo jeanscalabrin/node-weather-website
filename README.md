@@ -15,3 +15,8 @@ O app busca as coordenadas do local informando na API Position Stack, com esses 
 </ul>
 
 Foi utilizado padrões ES6 na construção do código.
+
+<img src="/images/1.png" />
+<img src="/images/2.png" />
+<img src="/images/3.png" />
+<img src="/images/4.png" />
