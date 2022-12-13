@@ -15,12 +15,13 @@ weatherForm.addEventListener('submit', (e) => {
     fetch('http://localhost:3000/weather?address=' + location).then((response) => {
     response.json().then((data) => {
         if(data.error) {
+            messageOne.textContent = ''
+            img.src = ''
             messageTwo.textContent = data.error
         } else {
             img.src = data.weatherIcon
             messageOne.textContent = data.locationName
             messageTwo.textContent = data.forecast
-
         }
     })
 })
