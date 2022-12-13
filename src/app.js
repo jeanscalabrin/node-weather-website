@@ -1,6 +1,3 @@
-/* projeto utiliza webserver Express, 
-páginas em HTMLl e CSS, documentos javascript, Handlebars (hbs) com partials,*/
-
 const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
