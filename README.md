@@ -14,4 +14,4 @@ O app busca as coordenadas do local informando na API Position Stack, com esses 
   <li>CSS</li>
 </ul>
 
-Foi utilizado padrões ES6 para construção do código.
+Foi utilizado padrões ES6 na construção do código.
